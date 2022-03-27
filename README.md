@@ -19,7 +19,7 @@ In this project, I have prepared a model for predicting bike sharing demand usin
 
 Bike sharing systems are a means of renting bicycles where the process of obtaining membership, rental, and bike return is automated via a network of kiosk locations throughout a city. Using these systems, people are able rent a bike from a one location and return it to a different place on an as-needed basis. Currently, there are over 500 bike-sharing programs around the world.
 
-[Kaggle link](https://www.kaggle.com/c/bike-sharing-demand)
+[Actual Link to Kaggle](https://www.kaggle.com/c/bike-sharing-demand)
 
 
 ## Problem Statement
@@ -32,10 +32,10 @@ Here, we are asked to combine historical usage patterns with weather data in ord
 - Weekday : 0-6 for Sunday to Saturday
 - WorkingDay : 0-No, 1-Yes
 - Weather :
-    - Clear, Few clouds
-    - Mist, CLoudy
-    - Light rain, light thunderstorm
-    - Heavy Rain, Snow
+    - 1-Clear, Few clouds
+    - 2-Mist, CLoudy
+    - 3-Light rain, light thunderstorm
+    - 4-Heavy Rain, Snow
 - Temp : Normalized temperature in celsius
 - atemp : Normalized feeling temperature in celsius
 ## Steps Involved
